@@ -1,0 +1,10 @@
+L1=[500,600]
+L2=[35,45]
+L1.append(700)
+L1.extend(L2)
+L1.insert(25,2)
+print(L1)
+print(L1+L2)
+print(L1)
+print(L1.index(35))
+print(L2*2)
